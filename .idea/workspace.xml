@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b24eb8fc-d32f-4377-90c4-29af35961be1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17483643-7103-47ff-8586-325c4768ef5e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17483643-7103-47ff-8586-325c4768ef5e/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/17483643-7103-47ff-8586-325c4768ef5e/storage_v2/_src_/schema/SKLEP.n9y0BA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle/jdbc/pool/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/ProductsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/zdziech/g/BasketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/zdziech/g/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/zdziech/g/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/info.zdziech.g.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/AppConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/Clients/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/Clients/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/Repository/ProductsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/Repository/UsersRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/ShopProducts/Basket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/info/zdziech/g/ShopProducts/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/info.zdziech.g-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/info/zdziech/g/BasketTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/info/zdziech/g/ProductTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SKLEP: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Webstore" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/AppConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Basket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+                <element signature="e#3113#3114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/ProductsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/USERS">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="220d537d-fdbf-4710-9ca0-306489200f06">
+              <filtering>
+                <filter text="" />
+              </filtering>
+              <column-attributes>
+                <column name="ROWID" enabled="false" position="-1" />
+              </column-attributes>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/UsersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Seller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Logger.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/17483643-7103-47ff-8586-325c4768ef5e/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Logger.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Seller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/AppConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Products.java" />
+        <option value="$PROJECT_DIR$/src/test/java/info/zdziech/g/MainTestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/info/zdziech/g/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/ProductList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/info/zdziech/g/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/ProductsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Basket.java" />
+        <option value="$PROJECT_DIR$/src/test/java/info/zdziech/g/BasketTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Users/UsersImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Users/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Users/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/UsersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Basket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/ProductsRepository.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="info.zdziech.g" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="info.zdziech.g" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="5" />
+    <option name="width" value="1350" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdziech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdziech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="g" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdziech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Webstore" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="info" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="zdziech" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="g" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="info" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zdziech" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="g" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Oracle" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebService" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="tags.panel.visible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="info.zdziech.g" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="info.zdziech" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="info.zdziech.g.Users" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=D:\\Projekty\\Shop.app\\ojdcb6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar" />
+      <command value="$ mvn install:install-file -Dfile=D:\\Projekty\\OJDBC\\Shop.app\\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar " />
+      <command value="$ mvn install:install-file -Dfile=D:\\Projekty\\Shop.app\\OJDBC\\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar" />
+      <command value="$ mvn install:install-file -Dfile=D:\\Oracle\\OJDBC\\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar " />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="info.zdziech.g.Main" />
+      <module name="info.zdziech.g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.zdziech.g.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.shouldAddDifferentproductToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="info.zdziech.g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.zdziech.g.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.zdziech.g" />
+      <option name="MAIN_CLASS_NAME" value="info.zdziech.g.BasketTest" />
+      <option name="METHOD_NAME" value="shouldAddDifferentproductToBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.shouldClearMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="info.zdziech.g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.zdziech.g.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.zdziech.g" />
+      <option name="MAIN_CLASS_NAME" value="info.zdziech.g.BasketTest" />
+      <option name="METHOD_NAME" value="shouldClearMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.shouldComputeManyDifferentProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="info.zdziech.g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.zdziech.g.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.zdziech.g" />
+      <option name="MAIN_CLASS_NAME" value="info.zdziech.g.BasketTest" />
+      <option name="METHOD_NAME" value="shouldComputeManyDifferentProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest.shouldComputeOrderValueWithOneProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="info.zdziech.g" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.zdziech.g.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.zdziech.g" />
+      <option name="MAIN_CLASS_NAME" value="info.zdziech.g.BasketTest" />
+      <option name="METHOD_NAME" value="shouldComputeOrderValueWithOneProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BasketTest.shouldClearMap" />
+        <item itemvalue="JUnit.BasketTest.shouldAddDifferentproductToBasket" />
+        <item itemvalue="JUnit.BasketTest.shouldComputeManyDifferentProducts" />
+        <item itemvalue="JUnit.BasketTest.shouldComputeOrderValueWithOneProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b24eb8fc-d32f-4377-90c4-29af35961be1" name="Default Changelist" comment="" />
+      <created>1557804310153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557804310153</updated>
+      <workItem from="1557804316513" duration="3596000" />
+      <workItem from="1557880226738" duration="8259000" />
+      <workItem from="1557888935331" duration="1558000" />
+      <workItem from="1557891617257" duration="1575000" />
+      <workItem from="1557956900506" duration="4997000" />
+      <workItem from="1557964354997" duration="49000" />
+      <workItem from="1559674013705" duration="9066000" />
+      <workItem from="1559850069957" duration="4689000" />
+      <workItem from="1560079520823" duration="234000" />
+      <workItem from="1560265458818" duration="6295000" />
+      <workItem from="1560272527224" duration="13487000" />
+      <workItem from="1560348923001" duration="6514000" />
+      <workItem from="1560590396334" duration="528000" />
+      <workItem from="1560591046119" duration="760000" />
+      <workItem from="1560592002575" duration="2023000" />
+      <workItem from="1560594149324" duration="1222000" />
+      <workItem from="1560595844358" duration="1049000" />
+      <workItem from="1560598490509" duration="151000" />
+      <workItem from="1560601037832" duration="301000" />
+      <workItem from="1560677716804" duration="262000" />
+      <workItem from="1560678555125" duration="4958000" />
+      <workItem from="1560804067224" duration="4544000" />
+      <workItem from="1560895875593" duration="34000" />
+      <workItem from="1560944814844" duration="1193000" />
+      <workItem from="1561501161440" duration="725000" />
+      <workItem from="1561512760997" duration="571000" />
+      <workItem from="1561516867838" duration="175000" />
+      <workItem from="1561671813921" duration="1437000" />
+      <workItem from="1561675590845" duration="276000" />
+      <workItem from="1561678002131" duration="243000" />
+      <workItem from="1561678270507" duration="644000" />
+      <workItem from="1561839881246" duration="3022000" />
+      <workItem from="1561843972133" duration="1209000" />
+      <workItem from="1561871837022" duration="13690000" />
+      <workItem from="1562097684575" duration="5694000" />
+      <workItem from="1562149696755" duration="2460000" />
+      <workItem from="1562546633477" duration="8231000" />
+      <workItem from="1563013150472" duration="2196000" />
+      <workItem from="1563095487332" duration="1856000" />
+      <workItem from="1563097848862" duration="2164000" />
+      <workItem from="1563130616434" duration="5287000" />
+      <workItem from="1563140628533" duration="1396000" />
+      <workItem from="1563229867124" duration="16894000" />
+      <workItem from="1563317955142" duration="15785000" />
+      <workItem from="1563402089985" duration="16869000" />
+      <workItem from="1563554156999" duration="12946000" />
+      <workItem from="1563604125390" duration="14283000" />
+      <workItem from="1563643448772" duration="806000" />
+      <workItem from="1563742147203" duration="2193000" />
+      <workItem from="1564617516910" duration="3156000" />
+      <workItem from="1564704842654" duration="6136000" />
+      <workItem from="1564711542883" duration="14000" />
+      <workItem from="1564903096581" duration="15613000" />
+      <workItem from="1565025102898" duration="11142000" />
+      <workItem from="1565042611448" duration="1554000" />
+      <workItem from="1565045711305" duration="135000" />
+      <workItem from="1565105359501" duration="5910000" />
+      <workItem from="1565199827685" duration="10109000" />
+      <workItem from="1565479995357" duration="11480000" />
+      <workItem from="1565561985918" duration="12890000" />
+      <workItem from="1565804858949" duration="10843000" />
+      <workItem from="1565908003932" duration="17965000" />
+      <workItem from="1566023357948" duration="8736000" />
+      <workItem from="1566382949305" duration="1054000" />
+      <workItem from="1566421976503" duration="9003000" />
+      <workItem from="1566432805087" duration="344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BasketTest_shouldAddDifferentproductToBasket - 2019.08.12 at 04h 25m 23s.xml">
+      <configuration name="BasketTest.shouldAddDifferentproductToBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldAddDifferentproductToBasket - 2019.08.14 at 20h 22m 09s.xml">
+      <configuration name="BasketTest.shouldAddDifferentproductToBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldAddDifferentproductToBasket - 2019.08.14 at 20h 22m 25s.xml">
+      <configuration name="BasketTest.shouldAddDifferentproductToBasket" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 34m 46s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 38m 27s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 40m 39s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 41m 43s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 41m 57s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.21 at 23h 42m 10s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasketTest_shouldClearMap - 2019.08.22 at 00h 21m 25s.xml">
+      <configuration name="BasketTest.shouldClearMap" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="334480000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.34295303" />
+      <window_info id="Structure" order="1" sideWeight="0.5042194" side_tool="true" weight="0.26912752" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5042194" side_tool="true" weight="0.26912752" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.28470254" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49924356" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49924356" weight="0.32719547" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24899329" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.23959732" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.17315437" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Shop_app$Main.ic" NAME="Main Coverage Results" MODIFIED="1560592264659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Java/src.zip!/java/lang/reflect/Method.java" />
+    <entry file="jar://D:/Java/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f84b0de8-c82b-4dd4-a669-21acb4ce6f1c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4eeb4356-be4d-4522-97c9-b8bd837ffc29/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/DEPARTAMENTY" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/DOSTAWCY" />
+    <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/PRACOWNICY" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Logger.java" />
+    <entry file="jar://D:/Programy/Java/jdk-12.0/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/zdziech/g/MainTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/ProductList.java" />
+    <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/PRODUKTY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="09d97ef0-5bc6-44b6-b09e-ff0a896df4d3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Programy/Java/jdk-12.0/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Programy/Java/jdk-12.0/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/zdziech/g/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Programy/Java/jdk-12.0/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/zdziech/g/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/zdziech/g/BasketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Users/UsersImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/package-info.java" />
+    <entry file="jar://D:/Programy/Java/jdk-12.0/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="338" column="44" selection-start-line="338" selection-start-column="44" selection-end-line="338" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/AppConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Clients/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/ShopProducts/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/UsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/zdziech/g/Repository/ProductsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://17483643-7103-47ff-8586-325c4768ef5e/schema/SKLEP/table/USERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="220d537d-fdbf-4710-9ca0-306489200f06">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="ROWID" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>info.zdziech.g</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="install:install-file -Dfile=D:\\Oracle\\OJDBC\\ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar" />
+  </component>
+</project>

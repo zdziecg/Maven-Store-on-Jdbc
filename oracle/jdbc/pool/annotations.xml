@@ -1,0 +1,5 @@
+<root>
+    <product name='oracle.jdbc.pool.OracleDataSource'>
+        <annotation name='java.lang.Deprecated'/>
+    </product>
+</root>
