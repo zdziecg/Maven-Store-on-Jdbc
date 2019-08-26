@@ -1,6 +1,8 @@
 package info.zdziech.g.Clients;
 
-public class User {
+public class User
+
+{
     private int id;
     private String name;
     private String password;
@@ -58,7 +60,6 @@ public class User {
 
         return name.equals(user.name);
     }
-
 }
 
 
