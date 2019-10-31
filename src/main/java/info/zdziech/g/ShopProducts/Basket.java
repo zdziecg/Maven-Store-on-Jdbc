@@ -14,8 +14,13 @@ import java.util.Map;
         }
 
         public void add(Product product, int quantity) {
-            if (product.getName() == null) {
-                throw new IllegalArgumentException("Product is not exist");
+            if (product==null) {
+
+                throw new NullPointerException("Product cannot be a null");
+            }
+            if (product.getName() == null || product.getName().isEmpty()){
+
+                throw new IllegalArgumentException("Product doesn't have an appropriate name");
             }
 
             if (quantity <= 0) {
@@ -36,13 +41,13 @@ import java.util.Map;
 
             if (order.containsKey(product)) {
 
-                if (quantity <= 0) {
+                if (quantity < 0) {
                     throw new IllegalArgumentException(String.format("Illegal quantity %d!", quantity));
                 }
                 quantity = order.get(product) - quantity;
                 if (quantity == 0) {
                     order.remove(product);
-                } else if (quantity < 0) {
+                }  if (quantity < 0) {
                     throw new IllegalStateException("There is no that many products to remove");
                 } else {
                     order.put(product, quantity);

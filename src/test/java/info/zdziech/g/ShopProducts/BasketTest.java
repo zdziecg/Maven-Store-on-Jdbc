@@ -1,7 +1,5 @@
-package info.zdziech.g;
+package info.zdziech.g.ShopProducts;
 
-import info.zdziech.g.ShopProducts.Basket;
-import info.zdziech.g.ShopProducts.Product;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -150,6 +148,34 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
          assertEquals(expectedValue,basket.getOrderValue());
      }
+     @Test
+     void cantAddProductWithNullName(){
+         Product chips = new Product(null, 122.22);
+         IllegalArgumentException exception = Assertions.assertThrows(
+                 IllegalArgumentException.class,
+                 ()->basket.add(chips,1)
+         );
+         assertEquals("Product doesn't have an appropriate name", exception.getMessage());
+     }
+     @Test
+     void cantAddProductWithEmptyName(){
+         Product chips = new Product("", 122.22);
+         IllegalArgumentException exception = Assertions.assertThrows(
+                 IllegalArgumentException.class,
+                 ()->basket.add(chips,1)
+         );
+         assertEquals("Product doesn't have an appropriate name", exception.getMessage());
+     }
+     @Test
+     void shouldntAddNullProduct(){
+        Product chips = null;
+        NullPointerException exception = Assertions.assertThrows(
+                NullPointerException.class,
+                ()->basket.add(chips, 1)
+        );
+        assertEquals("Product cannot be a null", exception.getMessage());
+     }
+
 
 
 

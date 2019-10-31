@@ -1,5 +1,7 @@
 package info.zdziech.g.ShopProducts;
 
+import java.util.Objects;
+
 public final class Product implements Comparable<Product> {
     private final String name;
     private final double price;
@@ -18,25 +20,17 @@ public final class Product implements Comparable<Product> {
     }
 
     @Override
-    public boolean equals(Object otherObject) {
-        if (this == otherObject) {
-            return true;
-        }
-        if (otherObject == null || ! (otherObject instanceof Product)) {
-            return false;
-        }
-
-        Product product = (Product) otherObject;
-
-        if (Double.compare(product.price, price) != 0) {
-            return false;
-        }
-        return name.equals(product.name);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return Double.compare(product.price, price) == 0 &&
+                name.equals(product.name);
     }
 
     @Override
     public int hashCode() {
-        return 31 * name.hashCode();
+        return Objects.hash(name, price);
     }
 
     @Override

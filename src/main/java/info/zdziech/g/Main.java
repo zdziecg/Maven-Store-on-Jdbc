@@ -2,10 +2,10 @@ package info.zdziech.g;
 
 import info.zdziech.g.Repository.ProductsRepository;
 import info.zdziech.g.Repository.UsersRepository;
-import info.zdziech.g.Clients.User;
-import info.zdziech.g.Clients.Users;
 import info.zdziech.g.ShopProducts.Basket;
 import info.zdziech.g.ShopProducts.Product;
+import info.zdziech.g.Users.User;
+import info.zdziech.g.Users.UserFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -20,10 +20,12 @@ public class Main  {
         ProductsRepository productsRepository = context.getBean("productsRepository", ProductsRepository.class);
 
         Basket basket = new Basket();
-        Users users = new Users();
+        UserFactory userFactory = new UserFactory();
+
         Scanner sc = new Scanner(System.in);
         String password;
         String name;
+        int phone;
         int selection;
 
         do {
@@ -37,14 +39,11 @@ public class Main  {
                 case 1:
                     System.out.println("Wprowadź nazwę użutkownika:");
                     name = sc.next();
-                    if (users.checkUser(name,usersRepository.getuserDataName(name))){
-                        System.out.println("Nazwa użytkownika już istnoieje ");
-                    }
-                    else {
+                    System.out.println(usersRepository.getuserDataName(name));
                         System.out.println("Wprowadź hasło: ");
                         password = sc.next();
                         System.out.println("Wprowadź numer telefonu: ");
-                        int phone = 0;
+                        phone = sc.nextInt();
                         try {
                              phone = sc.nextInt();
                         }
@@ -52,12 +51,11 @@ public class Main  {
                         {
                             System.out.println("Numer telefonu niepoprawny");
                         }
-                        int id = usersRepository.usersNumber() +1;
-                        User user = new User(id, name, password, phone);
-                        users.createUser(user);
-                        usersRepository.addUser(user);
-                        System.out.println("Dziękujemy za rejestrację");
-                    }
+                    User client = userFactory.createUser("Client", name, password, phone );
+                    System.out.println(client);
+                    System.out.println(usersRepository.getuserDataName(name));
+                    usersRepository.addUser(client);
+                    System.out.println("Dziękujemy za rejestrację");
                     break;
                 case 2:
                     System.out.println("Aby się zalogowac wprowadź nazwę użytkownika: ");
@@ -65,9 +63,9 @@ public class Main  {
                     System.out.println("Wprowadź hasło: ");
                     password = sc.next();
                     System.out.println("Logowanie...");
-                    if (users.loginToStore(users.checkUser(name,usersRepository.getuserDataName(name) )
-                            ,users.checkPassword(password,usersRepository.getpassword(name))))
-                    {
+//                    if (users.loginToStore(users.checkUser(name,usersRepository.getuserDataName(name) )
+//                            ,users.checkPassword(password,usersRepository.getpassword(name))))
+                   {
                         System.out.println("Witamy w sklepie online");
                         System.out.println("Dodej produkt do koszyka ---- wybierz 1");
                         System.out.println("Usuń produkt z koszyka ------ wybierz 2");
@@ -119,9 +117,9 @@ public class Main  {
                             while (choose != 5) ;
 
                     }
-                     else {
-                        System.out.println("Zła nazwa użytkownika lub hasło");
-                    }
+//                     else {
+//                        System.out.println("Zła nazwa użytkownika lub hasło");
+//                    }
 
                     break;
                 case 0:
