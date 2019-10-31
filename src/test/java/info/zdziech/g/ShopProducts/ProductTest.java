@@ -1,12 +1,11 @@
-package info.zdziech.g;
+package info.zdziech.g.ShopProducts;
 
-import info.zdziech.g.ShopProducts.Product;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-public class ProductTest {
+class ProductTest {
     @Test
     void productsWithSameNameAndPriceShouldBeEqual () {
         assertEquals(new Product("Product", 122.2), new Product("Product", 122.2));
@@ -19,7 +18,6 @@ public class ProductTest {
     void productsWithDifferentNameAndSamePriceShoulBeNotEquals(){
         assertNotEquals(new Product("Product1", 122.21), new Product("Product2", 122.21));
     }
-
 
 }
 

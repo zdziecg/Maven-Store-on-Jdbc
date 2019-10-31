@@ -1,37 +1,37 @@
-package info.zdziech.g;
+package info.zdziech.g.Users;
 
-import info.zdziech.g.Clients.User;
+import info.zdziech.g.ShopProducts.Basket;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-class UsersTest {
+class ClientTest {
 
-    private User user = new User(1, "username", "password", 1234);
+    Basket b = new Basket();
+    User client = new Client("client1", "password", 1234, b);
 
     @Test
     void usersWithSameNameShouldBeEquals() {
 
-        assertEquals(user.getName(), "username");
+        assertEquals(client.getName(), "client1");
     }
     @Test
     void usersWithDifferentNameShouldtBeEquals(){
-        assertNotEquals(user.getName(), "Username");
+        assertNotEquals(client.getName(), "Username");
     }
 
     @Test
     void checkPasswordShouldBeEquals() {
-        assertEquals(user.getPassword(),"password");
+        assertEquals(client.getPassword(),"password");
     }
     @Test
     void differentPasswordShouldntBeEquals() {
-        assertNotEquals(user.getPassword(),"password1");
+        assertNotEquals(client.getPassword(),"password1");
     }
 
     @Test
     void UsersWithDifferentNameAndSamePasswordAndPhoneShoulBeNotEqualt() {
-        assertNotEquals(new User(2, "name", "password",1234), user);
-
+        assertNotEquals(new Client("client2", "password", 1234,b), client);
     }
 }

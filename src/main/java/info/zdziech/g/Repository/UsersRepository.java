@@ -1,6 +1,6 @@
 package info.zdziech.g.Repository;
 
-import info.zdziech.g.Clients.User;
+import info.zdziech.g.Users.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -32,12 +32,13 @@ public class UsersRepository {
 
     public void addUser(User user) {
         String SQL_ADD_USER = "INSERT INTO USERS (ID, NAME, PASSWORD, PHONE)VALUES (?,?,?,?)";
-        int id = user.getId();
         String username = user.getName();
         String password = user.getPassword();
-        int phone = user.getPhone();
-        jdbcTemplate.update(SQL_ADD_USER, id, username, password, phone);
-
+        Integer phone = user.getPhone();
+        if (getuserDataName(username) == (null)) {
+            jdbcTemplate.update(SQL_ADD_USER, usersNumber() +1, username, password, phone);
+        }
+        else System.out.println("User is exist");
     }
 
     public int usersNumber() {
